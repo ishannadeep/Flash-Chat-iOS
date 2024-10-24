@@ -24,6 +24,9 @@
 		862D2C892CADADC30046D207 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 862D2C882CADADC30046D207 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		862D2C8B2CADADC30046D207 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 862D2C8A2CADADC30046D207 /* FirebaseAppCheck */; };
 		862D2C8D2CADADC30046D207 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 862D2C8C2CADADC30046D207 /* FirebaseAppDistribution-Beta */; };
+		86B3C01E2CCA875B003F7D7B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 86B3C01D2CCA875B003F7D7B /* FirebaseAuth */; };
+		86B3C0202CCA875B003F7D7B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 86B3C01F2CCA875B003F7D7B /* FirebaseCore */; };
+		86B3C0222CCA875B003F7D7B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 86B3C0212CCA875B003F7D7B /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 				1410839E7BBF4F680E685704 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
 				862D2C8B2CADADC30046D207 /* FirebaseAppCheck in Frameworks */,
 				862D2C892CADADC30046D207 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				86B3C0222CCA875B003F7D7B /* FirebaseFirestore in Frameworks */,
+				86B3C01E2CCA875B003F7D7B /* FirebaseAuth in Frameworks */,
+				86B3C0202CCA875B003F7D7B /* FirebaseCore in Frameworks */,
 				862D2C8D2CADADC30046D207 /* FirebaseAppDistribution-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -400,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -507,6 +513,18 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 862D2C832CADAD9C0046D207 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseAppDistribution-Beta";
+		};
+		86B3C01D2CCA875B003F7D7B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		86B3C01F2CCA875B003F7D7B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		86B3C0212CCA875B003F7D7B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

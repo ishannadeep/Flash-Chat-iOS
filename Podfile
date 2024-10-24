@@ -1,4 +1,4 @@
-platform :ios, '13.0'
+platform :ios, '17.0'
 
 target 'Flash Chat iOS13' do
   use_frameworks!
@@ -6,7 +6,6 @@ target 'Flash Chat iOS13' do
   # Pods for Flash Chat iOS13
   
   pod 'CLTypingLabel', '~> 0.4.0'
-  pod 'FirebaseAuth'
-  pod 'FirebaseFirestore'
-  
+  pod 'GTMSessionFetcher', '~> 4.1.0'
+
 end
