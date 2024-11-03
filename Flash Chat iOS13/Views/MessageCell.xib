@@ -20,11 +20,18 @@
                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MW6-5K-u5u">
                         <rect key="frame" x="10" y="10" width="356" height="54"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="t1L-gY-DME">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="9y3-j2-ItA"/>
+                                    <constraint firstAttribute="height" constant="40" id="goG-Tk-vk2"/>
+                                </constraints>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7u-G9-G23">
-                                <rect key="frame" x="0.0" y="0.0" width="296" height="54"/>
+                                <rect key="frame" x="60" y="0.0" width="236" height="54"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4m-h8-CNX">
-                                        <rect key="frame" x="10" y="10" width="276" height="34"/>
+                                        <rect key="frame" x="10" y="10" width="216" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" name="BrandLightPurple"/>
                                         <nil key="highlightedColor"/>
@@ -59,6 +66,7 @@
             <accessibility key="accessibilityConfiguration" identifier="ReusableCell"/>
             <connections>
                 <outlet property="label" destination="E4m-h8-CNX" id="Jim-YS-Ffw"/>
+                <outlet property="leftImageView" destination="t1L-gY-DME" id="yqk-Xy-4TD"/>
                 <outlet property="messageBubble" destination="d7u-G9-G23" id="UhH-hh-ZMv"/>
                 <outlet property="rightImageView" destination="nze-VH-Xkg" id="etp-CI-jRw"/>
             </connections>
@@ -67,6 +75,7 @@
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
+        <image name="YouAvatar" width="36" height="36"/>
         <namedColor name="BrandLightPurple">
             <color red="0.98000001907348633" green="0.9649999737739563" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
